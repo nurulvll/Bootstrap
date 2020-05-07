@@ -1,0 +1,632 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Halal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Merriweather&family=PT+Serif:wght@700&family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="css/jquery.rprogessbar.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="images/ha.jpg" rel="shortcut icon" />
+
+</head>
+<body>
+
+    <!--Navigation part-->
+
+    <section id="header">
+        <nav class="navbar  navbar-dark navbar-expand-md">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Halal</a>
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#nav-id"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="nav-id">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active"><a href="#" class="nav-link c">Home</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link c">Layout</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link c">Feature</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link c">Blog</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link c">Shop</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link c">Address</a></li>
+                        <li class="nav-item active"><a id="search" class="nav-link"><i class="fa fa-search"></i></a></li>
+                        <li class="nav-item active" id="set">
+                            <a id="gobal" class="nav-link">
+                                <i class="fas fa-globe"></i>                            
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="search-form">
+                        <form>
+                            <input type="text" name="" placeholder="Search here" />
+                        </form>
+                    </div>
+                    <a class="close"><i class="fas fa-times"></i></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--slider part-->
+
+    <section id="slider-part" class="bg-dark">
+        <div class="carousel slide" data-ride="carousel" id="mycarousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-img-1 active">
+                    <img src="images/business-4.jpg" />
+                    <div class="carousel-caption mb-5 pb-5 text-left">
+                        <p class="animated fadeInUp ss" style="animation-delay:.5s;">Business</p>                       
+                        <h1 class="text-light animated fadeInUp" style="animation-delay:1s;" id="hid">Your business should be halal</h1>
+                        <a href="#" class="btn btn-danger animated fadeInUp" style="animation-delay:1.5s;">Explore</a>
+                        <a href="#" class="btn btn-light animated fadeInUp" style="animation-delay:1.5s;">Read More</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-img-2 ">
+                    <img src="images/business-3.jpg" />
+                    <div class="carousel-caption mb-5 pb-5 text-center">
+                        <p class="business animated fadeInUp" style="animation-delay:.5s;">Business</p>
+                        <h1 class="text-light animated fadeInUp" style="animation-delay:1s;" id="hid">Halal gives everyone about purity</h1>
+                        <a href="#" class="btn btn-danger animated fadeInUp" style="animation-delay:1.5s;">Explore</a>
+                        <a href="#" class="btn btn-light animated fadeInUp" style="animation-delay:1.5s;">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-3 ">
+                    <img src="images/bbb.jpg" />
+                    <div class="carousel-caption mb-5 pb-5 text-left">
+                        <p class="animated fadeInUp ss" style="animation-delay:.5s;">Business</p>
+                        <h1 class="text-dark animated fadeInUp" style="animation-delay:1s;" id="hid">Your business should be halal</h1>
+                        <a href="#" class="btn btn-danger animated fadeInUp" style="animation-delay:1.5s;">Explore</a>
+                        <a href="#" class="btn btn-light animated fadeInUp" style="animation-delay:1.5s;">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-4 ">
+                    <img src="images/ttt.jpg" />
+                    <div class="carousel-caption mb-5 pb-5 text-center">
+                        <p class="business animated fadeInUp" style="animation-delay:.5s;">Business</p>
+                        <h1 class="text-dark text-center animated fadeInUp" style="animation-delay:1s;" id="hid">Halal gives everyone about purity</h1>
+                        <a href="#" class="btn btn-danger text-center animated fadeInUp" style="animation-delay:1.5s;">Explore</a>
+                        <a href="#" class="btn btn-light text-center animated fadeInUp" style="animation-delay:1.5s;">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-slide-to="0" data-target="#mycarousel" class="active"></li>
+                <li data-slide-to="1" data-target="#mycarousel"></li>
+                <li data-slide-to="2" data-target="#mycarousel"></li>
+                <li data-slide-to="3" data-target="#mycarousel"></li>
+            </ol>
+            <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">             
+                <i class="fas fa-chevron-left "></i>
+            </a>
+            <a href="#mycarousel" class="carousel-control-next " data-slide="next">              
+                <i class="fas fa-chevron-right "></i>
+            </a>
+        </div>
+    </section>
+
+    <!--about part-->
+
+    <section id="aboutus-part" class="py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>About us</h4>
+                    <h2>
+                        Business is the organized efforts and activities
+                        of individuals to produce and sell goods and services for profit.
+                    </h2>
+                    <p class="lead text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <a href="#" class="btn  btn-outline-dark text-center">Service</a>
+                </div>
+                <div class="col-md-3 offset-1" id="about-middle">
+                    <h4>Marketing Essentials</h4>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        It has survived not only five centuries.
+                    </p>
+                    <h4>Business Leaders</h4>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Corporate Finance & Accounting</h4>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        It has survived not only five centuries.
+                    </p>
+                    <h4>Small Business</h4>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--purchese part-->
+
+    <section id="purchese-part" class="py-5  bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h5 class="text-center pt-2">
+                        Play by the rules, but be ferocious.
+                    </h5>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-center pt-0">
+                        <a href="#" class="btn btn-outline-dark">purchase halal</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--count part-->
+
+    <section id="count-part" class="text-light py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center pt-5 mt-5">
+                    <div>
+                        <h1 class="counter">10000</h1>
+                        <p class="p ">Sales Per Capita(doller)</p>
+                    </div>
+                    <div>
+                        <h1 class="counter ">13</h1>
+                        <p class="p ">Barcode(digit)</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center pt-5 mt-5" >
+                    <div id="count-middle">
+                        <h1 class="counter">1500</h1>
+                        <p class="p ">Depreciation(doller)</p>
+                    </div>
+                    <div>
+                        <h1 class="counter ">4</h1>
+                        <p class="p ">total annual sales(million)</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4 mt-4">
+                    <h2>Use Percentages in Business</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries
+                    </p>
+                    <a class="btn btn-outline-light">OUR SERVICES</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--all bar section-->
+
+    <section id="mixed-part" class="py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4>Know About</h4>
+                    <h1>Our Company</h1>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+            </div>
+
+            <!--linear bar-->
+
+            <div class="row pt-5">
+                <div class="col-md-4 bar">
+                    <h3>Progress</h3>
+                    <p class="m-0 a">html5</p>
+                    <div class="html"></div>
+                    <p class="m-0 a">css3</p>
+                    <div class="css"></div>
+                    <p class="m-0 a">jquery</p>
+                    <div class="jquery"></div>
+                    <p class="m-0 a">bootstrap</p>
+                    <div class="bootstrap"></div>
+                    <p class="m-0 a">asp.net</p>
+                    <div class="asp-net"></div>
+                    <p class="text-muted">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s.
+                    </p>
+                </div>
+
+                <!--card-->
+
+                <div class="col-md-4">
+                    <h3>Service About</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="accordion" role="tablist">
+                                <div class="card mt-3">
+                                    <div class="card-header" role="tab">
+                                        <div class="btn-l" data-toggle="collapse" href="#acc1">
+                                            <h5 class="mb-0 action">
+                                                <i class="fas fa-parachute-box"></i> Service Show Here
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="acc1" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="images/bacd.jpg" class="img-fluid rounded" />
+                                                    <p class="text-muted">
+                                                        Lorem Ipsum is simply dummy text of the printing
+                                                        and typesetting industry.
+                                                        Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="btn-l collapsed" data-toggle="collapse" href="#acc2">
+                                            <h5 class="mb-0 action">
+                                                <i class="fas fa-concierge-bell"></i> Service Show Here
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="acc2" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="images/bbb3.jpg" class="img-fluid rounded" />
+                                                    <p class="text-muted">
+                                                        Lorem Ipsum is simply dummy text of the printing
+                                                        and typesetting industry.
+                                                        Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="btn-l collapsed" data-toggle="collapse" href="#acc3">
+                                            <h5 class="mb-0 action">
+                                                <i class="fas fa-taxi"></i> Service Show Here
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="acc3" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <img src="images/taxi.jpg" class="img-fluid rounded" />
+                                                    <p class="text-muted">
+                                                        Lorem Ipsum is simply dummy text of the printing
+                                                        and typesetting industry.
+                                                        Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Blog</h3>
+                    <div class="row bl mt-4">
+                        <div class="col-md-4">
+                            <img src="images/business-2.jpg" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flll">
+                                <a href="#" class="text-dark ">Lorem Ipsum is simply dummy text.</a>
+                            </div>
+                            <span class="text-muted text-light">
+                                <i class="fa fa-clock"></i> 6m ago
+                            </span>
+                            <span class="text-muted text-light">
+                                <i class="fa fa-tag"></i> setup
+                            </span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row bl">
+                        <div class="col-md-4">
+                            <img src="images/blog.jpg" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flll">
+                                <a href="#" class="text-dark ">Lorem Ipsum is simply dummy text.</a>
+                            </div>
+                            <span class="text-muted">
+                                <i class="fa fa-clock"></i> 30m ago
+                            </span>
+                            <span class="text-muted">
+                                <i class="fa fa-tag"></i> setup
+                            </span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row bl">
+                        <div class="col-md-4">
+                            <img src="images/blog1.jpg" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flll">
+                                <a href="#" class="text-dark ">Lorem Ipsum is simply dummy text.</a>
+                            </div>
+                            <span class="text-muted">
+                                <i class="fa fa-clock"></i> 1h ago
+                            </span>
+                            <span class="text-muted">
+                                <i class="fa fa-tag"></i> setup
+                            </span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row bl">
+                        <div class="col-md-4">
+                            <img src="images/blog2.jpg" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flll">
+                                <a href="#" class="text-dark ">Lorem Ipsum is simply dummy text.</a>
+                            </div>
+                            <span class="text-muted">
+                                <i class="fa fa-clock"></i> 24h
+                            </span>
+                            <span class="text-muted">
+                                <i class="fa fa-tag"></i> setup
+                            </span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row bl">
+                        <div class="col-md-4">
+                            <img src="images/blog3.jpg" class="img-fluid rounded" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="flll">
+                                <a href="#" class="text-dark ">Lorem Ipsum is simply dummy text.</a>
+                            </div>
+                            <span class="text-muted">
+                                <i class="fa fa-clock"></i> 23h ago
+                            </span>
+                            <span class="text-muted">
+                                <i class="fa fa-tag"></i> setup
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contract part-->
+
+    <section id="contact-part" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="contact-middle">
+                    <h2>Get In Touch</h2>
+                    <h5 class="text-muted">Our Office In New Zealand,Australia,United States,Asia,Africa,Europe</h5>
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <address>
+                                <strong>Office:</strong><br />
+                                768 Falcon Hal, Fall 2020<br />
+                                Wellington,CA 2323
+                            </address>
+                            <address>
+                                <strong>Phone:</strong>
+                                (+22)1234 7890<br />
+                                <strong>Fax:</strong>
+                                (+22)0987 3456<br />
+                                <strong>Email:</strong>
+                                info@gamil.com
+                            </address>
+                        </div>
+                        <div class="col-md-6">
+                            <address>
+                                <strong>Office:</strong><br />
+                                768 Falcon Hal, Fall 2020<br />
+                                Wellington,CA 2323
+                            </address>
+                            <address>
+                                <strong>Phone:</strong>
+                                (+22)1234 7890<br />
+                                <strong>Fax:</strong>
+                                (+22)0987 3456<br />
+                                <strong>Email:</strong>
+                                info@gamil.com
+                            </address>
+                        </div>
+                    </div>
+                   <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3>Connect With Social Network</h3>
+                            <div class="icons">
+                                <ul>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="https://formspree.io/nurulami098@gmail.com" method="POST" >
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <p>
+                                    Name
+                                    <input name="user" data-validation="length alphanumeric " class="form-control" placeholder="Enter Your Name"
+                                           data-validation-length="3-12"
+                                           data-validation-error-msg="Enter At Least 3 Character">
+                                </p>                             
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <p>
+                                    Email
+                                    <input name="email" data-validation="email" class="form-control" placeholder="Enter Your Email"
+                                      data-validation-error-msg="Enter A Valid Email"     
+                                          >
+                                </p>                  
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p>
+                                Message (<span id="pres-max-length">100</span> characters left)
+                                <textarea name="Messagae" id="presentation" class="form-control" rows="8" cols="64" placeholder="Enter Your Message"></textarea>
+                            </p>                
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-outline-dark lead" type="submit">
+                                <i class="fa fa-paper-plane"></i> Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--subcribe part-->
+
+    <section id="subcribe-part" class="py-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 ">
+                    <h3 class="text-light">Subscribe Now</h3>
+                    <form action="https://formspree.io/nurulami098@gmail.com" method="post" class="">
+                        <div class="input-group text-center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fa fa-paper-plane"></i>
+                                </span>
+                            </div>
+                            <input name="email" data-validation="email" class="form-control" placeholder="Enter Your Email" data-validation-error-msg=""                           
+                                   />                                                            
+                            <div class="input-group-append">
+                                <button class="form-control text-dark" type="submit">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                        <p class="mt-2 text-light">To Get Information</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--layout part-->
+
+    <section id="layout-part" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>HTML5 Temlate Here</h5>
+                    <p class="pb-5">
+                        Halal,768 Falcon Hal, Fall 2020
+                        Wellington,CA 2323
+                        <br />
+                        Copyright @ 2020
+                    </p>
+                    <a href="#" class="btn btn-primary">PURCHASE NOW</a>
+                </div>
+                <div class="col-md-2" id="layout-middle">
+                    <h5>discover</h5>
+                    <ul>
+                        <li><a href="#" class="text-dark">Customers</a></li>
+                        <li><a href="#" class="text-dark">Supports</a></li>                 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#" class="text-dark">Set</a></li>
+                        <li><a href="#" class="text-dark">Products</a></li>
+                        <li><a href="#" class="text-dark">Post</a></li>                    
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li><a href="#" class="text-dark">Blog</a></li>
+                        <li><a href="#" class="text-dark">Shop</a></li>
+                        <li><a href="#" class="text-dark">Profile</a></li>
+                        <li><a href="#" class="text-dark">Share</a></li>                       
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#" class="text-dark">Contract Us</a></li>
+                        <li><a href="#" class="text-dark">Services</a></li>
+                        <li><a href="#" class="text-dark">Footers</a></li>                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer part-->
+
+    <section id="footer-part" class="py-4 text-dark text-center bg-light">
+        <p class="mb-0">@ 2020 Halal HTML5 Teplate</p>
+    </section>
+
+    <!--scroll button-->
+
+    <a id="topBtn" href="#" style="opacity:1;">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/esm/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="js/bottom-to-top.js"></script>
+    <script src="js/jQuery.rProgressbar.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+    <script src="js/form-validation-first.js"></script>
+    <script src="js/linear-bar-two.js"></script>
+    <script src="js/count-up-three.js"></script>
+    <script src="js/search-four.js"></script>
+
+</body>
+</html>
